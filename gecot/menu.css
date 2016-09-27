@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#sse1
+{
+	/*You can decorate the menu's container, such as adding background images through this block*/
+
+	height: 42px;
+	left:0px;
+	right:0px;
+	border-radius: 4px;
+	box-sizing: content-box;
+	margin-top: 10px;
+}
+
+#sses1
+{
+    margin:0 auto;/*This will make the menu center-aligned. Removing this line will make the menu align left.*/
+}
+#sses1 ul 
+{
+	position: relative;
+	list-style-type: none;
+	float: left;
+	padding: 0;
+	border-bottom: solid 2px #008fcc;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#sses1 li
+{
+    background-color: #EFECEB;
+	color: #6B6B6D;
+	position: relative;
+	float: left;
+	border-right: 1px solid #c0c0c0;
+	padding: 0;
+	margin: 0
+}
+/*CSS for background bubble*/
+
+#sses1 li.highlight
+{
+    background-color:#0e62fd;
+    top:36px;
+    height:2px;
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
+    border-bottom:solid 2px #377eff;
+    z-index: 1;
+    position: absolute;
+    overflow:hidden;
+}
+#sses1 li a
+{
+    color: #6B6B6D;
+	text-decoration: none;
+	padding: 5px 10px;
+	display: block;
+}
+
+#sses1 a:hover{
+	background: #4b87d3;
+	color: #fff;
+	
+	}
