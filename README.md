@@ -1,2 +1,2 @@
 # Gecot
-Sistema para controle de ocorrências
+Sistema criado para o controle de ocorrências do setor de T.I. 
